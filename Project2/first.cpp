@@ -93,7 +93,7 @@ int main() {
 */
 
 //피보나치 수열
-int main() {
+/*int main() {
 
 	int pre = 0; //이전 숫자
 	int cur = 1; //현재 숫자
@@ -102,17 +102,40 @@ int main() {
 	cout << "숫자를 입력하시오:\n";
 	cin >> num;
 
-	if (num ==0)
-	else if(num==1)
-	
-	else 
+	if (num == 0) {
+
+	}
+	else if (num == 1) {
+
+	}
+	else {
 		for (int i = 0; i < num; i++) {
 
-		int next = pre + cur;
-		pre = cur;
-		cur = next;
-
+			int next = pre + cur;
+			pre = cur;
+			cur = next;
+		}
 	}
 
 }
+*/
 
+//배열 문제
+/*
+int main() {
+	int student[10];
+	int sum = 0;
+	int number;
+
+	//sizeof(student)/size(int) or 10 or size(student)
+
+	for (int i = 0; i < 10; i++) {
+		cout << "학생의 성적을 입력하시오: ";
+		cin >> student[i];
+		sum += student[i];
+	}
+	number = sum / size(student);
+
+	cout << "성적 평균" << number << "\n";
+}
+*/
